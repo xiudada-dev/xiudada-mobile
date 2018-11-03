@@ -1,0 +1,61 @@
+.forgetPwd{
+	display: flex;
+	flex-direction: column;
+}
+.forgetPwd .top{
+	margin-top: 1.96rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.forgetPwd .top img{
+	width: 6.8rem;
+}
+.forgetPwd .top p{
+	font-size: 1.28rem;
+    line-height: 2.4rem;
+}
+.forgetPwd .wrapper{
+	margin-top: 2rem;
+	margin-right: 3rem;
+	margin-left: 3rem;
+}
+.forgetPwd .wrapper .input{
+	margin-top: 1rem;
+	padding-left: 0;
+	padding-top: .4rem;
+	padding-bottom: .4rem;
+	border-bottom: 1px solid #ddd;
+	height: auto;
+}
+.forgetPwd .wrapper .input .am-list-line{
+	padding-right: 0;
+}
+.forgetPwd .wrapper .input .am-list-line:after{
+	height: 0 !important;
+}
+.forgetPwd .wrapper .input img{
+    height: 2.4rem;
+    width: 1.8rem;
+    vertical-align: bottom;
+}
+.forgetPwd .wrapper .input .imgVerifyCode{
+	position: absolute;
+	display: inline-block;
+	right: 0;
+	height: 20px;
+	width: 89px;
+}
+.forgetPwd .wrapper .input .verifyCodeBtn{
+	position: absolute;
+	display: inline-block;
+	right: 0;
+}
+.forgetPwd .wrapper .error_tip{
+	color: #e04646;
+    font-size: 1rem;
+    margin-top: 0.8rem; 
+}
+.forgetPwd .wrapper .btn_register{
+	margin: 1.6rem 0;
+}

@@ -1,0 +1,25 @@
+.register{
+	display: flex;
+	flex-direction: column;
+}
+.register .top{
+	margin-top: 1.96rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.register .top img{
+	width: 6.8rem;
+}
+.register .top p{
+	font-size: 1.28rem;
+    line-height: 2.4rem;
+}
+.register .wrapper{
+	margin-top: 2rem;
+	margin-right: 3rem;
+	margin-left: 3rem;
+}
+.register .wrapper .btn_login{
+	margin: 2rem 0;
+}

@@ -1,0 +1,73 @@
+.login{
+	display: flex;
+	flex-direction: column;
+}
+.login .top{
+	margin-top: 1.96rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.login .top img{
+	width: 6.8rem;
+}
+.login .top p{
+	font-size: 1.28rem;
+    line-height: 2.4rem;
+}
+.login .wrapper{
+	margin-top: 1rem;
+	margin-right: 3rem;
+	margin-left: 3rem;
+}
+.login .wrapper .tab:first-child{
+	margin-top: 2rem;
+}
+.login .wrapper .input{
+	margin-top: 1rem;
+	padding-left: 0;
+	padding-top: .4rem;
+	padding-bottom: .4rem;
+	border-bottom: 1px solid #ddd;
+	height: auto;
+
+}
+.login .wrapper .input .am-list-line{
+	padding-right: 0;
+}
+.login .wrapper .input .am-list-line:after{
+	height: 0 !important;
+}
+.login .wrapper .input img{
+    height: 2.4rem;
+    width: 1.8rem;
+    vertical-align: bottom;
+}
+.login .wrapper .error_tip{
+	color: #e04646;
+    font-size: 1rem;
+    margin-top: 0.8rem; 
+}
+.login .wrapper .remember_password{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1rem;
+	margin-top: .5rem;
+}
+.login .wrapper .remember_password .agree{
+	margin-left: 0;
+}
+.login .wrapper .remember_password a{
+    color: #169BD5;
+}
+.login .wrapper .btn_login{
+	margin: 2rem 0;
+}
+.login .wrapper .no_account{
+	text-align: center;
+}
+.login .wrapper .no_account a{
+	color: #169BD5;
+}

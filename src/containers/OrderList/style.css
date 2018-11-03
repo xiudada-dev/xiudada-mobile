@@ -1,0 +1,56 @@
+.listback{
+    background-color: #eeeeee;
+}
+
+.ordernum{
+    color: #bbb;
+    font-size: 13px;
+}
+
+.titletext{
+    color: #47caa6;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+.statustext{
+    color: #47caa6;
+    font-size: 16px;
+    float: right;
+    margin-top: -18px;
+}
+
+.itemtext{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.timetext{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #999999;
+}
+
+.addresstext{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #999999;
+}
+
+.icon{
+    margin-top: 10px;
+}
+
+.buttondiv{
+    border-top: 1px solid #dddddd;
+    margin-top: 10px;
+
+}
+
+.centerlayout{
+    text-align: center;
+}

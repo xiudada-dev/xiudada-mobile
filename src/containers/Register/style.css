@@ -1,0 +1,88 @@
+<<<<<<< HEAD
+.register{
+	display: flex;
+	flex-direction: column;
+}
+.register .top{
+	margin-top: 1.96rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.register .top img{
+	width: 6.8rem;
+}
+.register .top p{
+	font-size: 1.28rem;
+    line-height: 2.4rem;
+}
+.register .wrapper{
+	margin-top: 2rem;
+	margin-right: 3rem;
+	margin-left: 3rem;
+}
+.register .wrapper .input{
+	margin-top: 1rem;
+	padding-left: 0;
+	padding-top: .4rem;
+	padding-bottom: .4rem;
+	border-bottom: 1px solid #ddd;
+	height: auto;
+}
+.register .wrapper .input .am-list-line{
+	padding-right: 0;
+}
+.register .wrapper .input .am-list-line:after{
+	height: 0 !important;
+}
+.register .wrapper .input img{
+    height: 2.4rem;
+    width: 1.8rem;
+    vertical-align: bottom;
+}
+.register .wrapper .input .imgVerifyCode{
+	position: absolute;
+	display: inline-block;
+	right: 0;
+	height: 20px;
+	width: 89px;
+}
+.register .wrapper .input .verifyCodeBtn{
+	position: absolute;
+	display: inline-block;
+	right: 0;
+}
+.register .wrapper .error_tip{
+	color: #e04646;
+    font-size: 1rem;
+    margin-top: 0.8rem; 
+}
+.register .wrapper .btn_register{
+	margin: 1.6rem 0;
+=======
+.register{
+	display: flex;
+	flex-direction: column;
+}
+.register .top{
+	margin-top: 1.96rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.register .top img{
+	width: 6.8rem;
+}
+.register .top p{
+	font-size: 1.28rem;
+    line-height: 2.4rem;
+}
+.register .wrapper{
+	margin-top: 2rem;
+	margin-right: 3rem;
+	margin-left: 3rem;
+}
+.register .wrapper .btn_login{
+	margin: 2rem 0;
+>>>>>>> ljh
+}
