@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { observable,action,runInAction } from 'mobx'
 import axios from 'axios'
 
@@ -228,54 +227,4 @@ class ProfileStore {
 
 }
 
-=======
-import { observable,action,runInAction } from 'mobx'
-import axios from 'axios'
-
-class ProfileStore {
-	@observable userInfo = null
-
-	//  用户信息存储在本地的KEY名
-	STORAGE_KEY_USER_INFO = 'FRONT_USER_INFO'
-	//  系统信息存储在本地的KEY名
-	STORAGE_KEY_SYSTEM_INFO = 'FRONT_SYSTEM_INFO'
-
-	constructor() {
-	  	this.restoreUserInfoFromStorage()
-	  	this.restorageSystemInfoFromStorage()
-	}
-	/**
-	 * 从本地缓存恢复用户信息
-	 * @return {[type]} [description]
-	 */
-	@action restoreUserInfoFromStorage = () => {
-
-	}
-	/**
-	 * 从本地缓存恢复系统信息
-	 * @return {[type]} [description]
-	 */
-	@action restorageSystemInfoFromStorage = () => {
-
-	}
-	/**
-	 * 用户登录
-	 * @param  {[type]} form [description]
-	 * @param  {[type]} e    [description]
-	 * @return {[type]}      [description]
-	 */
-	@action login = (form,e) => {
-
-	}
-	/**
-	 * 用户退出
-	 * @return {[type]} [description]
-	 */
-	@action logout = () => {
-
-	}
-
-}
-
->>>>>>> ljh
 export default ProfileStore

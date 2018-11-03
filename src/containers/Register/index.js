@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React,{ Component } from 'react'
 import { Button, InputItem } from 'antd-mobile'
 import { createForm } from 'rc-form'
@@ -115,37 +114,4 @@ class Register extends Component {
 	}
 }
 
-export default createForm()(Register)  
-=======
-import React,{ Component } from 'react'
-import { Button } from 'antd-mobile' 
-
-import './style.css'
-
-class Register extends Component {
-	render(){
-		return (
-			<div className="register">
-				<div className="top">
-					<img src="/imgs/web_logo.png" alt="系统logo"/>
-					<p>休哒哒</p>
-					<p>欢迎您</p>
-				</div>
-				<div className="wrapper">
-					{/*<div className="error_tip">
-				    	*请输入密码
-				    </div>*/}
-
-					<div className="btn-register">
-						<Button type="primary">
-							注册
-						</Button>
-					</div>
-				</div>
-			</div>
-		)
-	}
-}
-
-export default Register
->>>>>>> ljh
+export default createForm()(Register)
